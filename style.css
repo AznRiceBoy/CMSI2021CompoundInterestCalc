@@ -1,0 +1,49 @@
+body {
+  background-color: turquoise;
+  color: black;
+  text-shadow: 2px 2px 3px grey;
+  background-size: cover;
+  margin: 0;
+  background-image: url(https://cdn.theatlantic.com/thumbor/aJ8A6lF3rMV_7X_xNa080PzjEq0=/111x0:1888x1333/1200x900/media/img/mt/2017/10/.png/original.png);
+  height: 100vh;
+  
+}
+#calculator{
+  display: grid;
+  font-family: "Lucida Console", "Courier New", monospace;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 45% 50%;
+  column-gap: 10px;
+  row-gap: 30px;
+  padding: 20px;
+}
+#amount{
+  background-color: white;
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0.1s;
+}
+#left {    
+ text-align: left;  
+ margin-left: 5px;
+ }  
+
+#right{    
+ text-align: right;  
+ transform: rotate(20deg);
+ margin-right: 5px;
+ margin-top: 20px;
+}
+#amount:hover {
+  font-size: 36px;
+}
+h1, footer {
+  grid-column: 1 / span 2;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
