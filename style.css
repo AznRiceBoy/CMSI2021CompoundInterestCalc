@@ -38,12 +38,21 @@ body {
 #amount:hover {
   font-size: 36px;
 }
-h1, footer {
+h1 {
   grid-column: 1 / span 2;
   text-align: center;
   background-color: blueviolet;
   color: white;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer {
+  grid-column: 1 / span 2;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
